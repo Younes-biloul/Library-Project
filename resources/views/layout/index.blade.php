@@ -32,7 +32,7 @@
 <body>
     <style>
         .wrapper {
-            background: url(../images/bg.png) #eee;
+            background: white;
             border-bottom: 1px solid #bbb;
             -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
             -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -202,7 +202,7 @@
 
     @include('layout.template_navbar')
 
-    <div class="wrapper">
+    <div class="wrapper" style="background-Color: white !important;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">

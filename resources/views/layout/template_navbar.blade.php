@@ -11,7 +11,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         <div class="profile-pic">
-                            <img src="{{ asset('images/passport.jpg') }}"
+                            <img src="{{ asset('images/img-profile.png') }}"
                                 class="nav-avatar" />{{ auth()->user()->username }}
                         </div>
                     </a>

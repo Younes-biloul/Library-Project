@@ -36,7 +36,7 @@
 
     <style>
         .wrapper {
-            background: url(../images/bg.png) #eee;
+            background:  white;
             border-bottom: 1px solid #bbb;
             -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
             -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);

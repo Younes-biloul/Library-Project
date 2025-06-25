@@ -47,8 +47,9 @@ class HomeController extends Controller
 
         // Stock alerts (books with low stock)
         // $stockAlerts = Books::where('stock_alert', '<=', 5)->get();
-        $stockAlerts = Books::where('stock_alert', '<=', 5)->select('title', 'stock_alert')->get();
-
+        // $stockAlerts = Books::where('stock_alert', '<=', 5)->select('title', 'stock_alert')->get();
+        $stockAlerts = Books::select('title')->get();
+            
 
         // return view('statistics', compact('mostBorrowedBooks', 'stockAlerts'));
 
