@@ -10,6 +10,7 @@
                     <i class="menu-icon icon-user"></i> All Students in Library
                 </a>
             </li>
+
             <li
                 class="{{ request()->routeIs('all-books') || request()->routeIs('add-books') ? 'active' : '' }}
                 ">
@@ -22,11 +23,11 @@
                     <i class="menu-icon icon-folder-open-alt"></i>Add Book Category
                 </a>
             </li>
-            {{-- <li class="{{ Route::is('add-books') ? 'active' : '' }}">
+            <li class="{{ Route::is('add-books') ? 'active' : '' }}">
                 <a href="{{ URL::route('add-books') }}">
                     <i class="menu-icon icon-folder-open-alt"></i>Add Books
                 </a>
-            </li> --}}
+            </li> 
 
             <li class="{{ Route::is('issue-return') ? 'active' : '' }}">
                 <a href="{{ URL::route('issue-return') }}">

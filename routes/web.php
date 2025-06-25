@@ -58,6 +58,7 @@ Route::middleware('auth')->group(function () {
     // Render Add Books panel
     Route::get('/student-issue-books/{userId}', [BooksController::class, 'displayStudentIssuedBooks'])->name('student-issue-books');
     Route::get('/add-books', [BooksController::class, 'renderAddBooks'])->name('add-books');
+    Route::get('/store-book', [BooksController::class, 'store'])->name('store-book');
     Route::get('/edit-books/{id}/edit', [BooksController::class, 'renderEditBooks'])->name('edit-books');
     Route::delete('/delete-books/{id}', [BooksController::class, 'deleteBook'])->name('delete-books');
 

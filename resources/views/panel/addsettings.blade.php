@@ -18,12 +18,12 @@
         <script type="text/template" id="category_show" >
             @include('underscore.all_categories')
         </script>
-        {{-- <script type="text/template" id="rejectstudents_show" >
+         <script type="text/template" id="rejectstudents_show" >
             @include('underscore.rejectstudents_show')
         </script>
         <script type="text/template" id="blockstudents_show" >
             @include('underscore.blockstudents_show')
-        </script> --}}
+        </script> 
     </div>
     <script>
         const tabButtons = document.querySelectorAll('.tab-btn')
